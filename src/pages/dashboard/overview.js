@@ -147,9 +147,7 @@ const Overview = ({ loading }) => {
         }
         footer={
           <Field
-            name={formatMessage({
-              id: "app.dashboard.overview.conversionRate",
-            })}
+            name={formatMessage("app.dashboard.overview.conversionRate")}
             number="60%"
           />
         }

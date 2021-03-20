@@ -56,9 +56,7 @@ const SalePercent = ({ loading }) => {
   return (
     <Card
       className="salePercent"
-      title={formatMessage({
-        id: "app.dashboard.salePercent.proportionOfSales",
-      })}
+      title={formatMessage("app.dashboard.salePercent.proportionOfSales")}
       loading={loading}
       extra={
         <Radio.Group

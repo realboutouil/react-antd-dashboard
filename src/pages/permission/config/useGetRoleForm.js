@@ -92,9 +92,7 @@ export default function useGetRoleForm({
         rules={[
           {
             required,
-            message: formatMessage({
-              id: "app.permission.role.statusRequired",
-            }),
+            message: formatMessage("app.permission.role.statusRequired"),
           },
         ]}
       >

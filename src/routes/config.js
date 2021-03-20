@@ -7,9 +7,7 @@ const WrapperRouteComponent = ({ titleId, auth, ...props }) => {
   const { formatMessage } = useIntl();
   const WitchRoute = auth ? PrivateRoute : Route;
   if (titleId) {
-    document.title = formatMessage({
-      id: titleId,
-    });
+    document.title = formatMessage({ id: titleId });
   }
   return <WitchRoute {...props} />;
 };
