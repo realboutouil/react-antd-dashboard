@@ -1,0 +1,17 @@
+export const frFr_dashboard = {
+  "app.dashboard.overview.totalSales": "Ventes totales",
+  "app.dashboard.overview.visits": "Visites",
+  "app.dashboard.overview.payments": "Paiements",
+  "app.dashboard.overview.operationalEffect": "Effet opérationnel",
+  "app.dashboard.overview.wowChange": "Changement WoW",
+  "app.dashboard.overview.dodChange": "Changement DoD",
+  "app.dashboard.overview.dailySales": "Ventes quotidiennes",
+  "app.dashboard.overview.visits.dailyVisits": "Visites quotidiennes",
+  "app.dashboard.overview.conversionRate": "Taux de conversion",
+  "app.dashboard.salePercent.proportionOfSales": "Proportion des ventes",
+  "app.dashboard.salePercent.all": "Toute",
+  "app.dashboard.salePercent.online": "En ligne",
+  "app.dashboard.salePercent.offline": "Hors ligne",
+  "app.dashboard.timeline.traffic": "Trafic",
+  "app.dashboard.timeline.payments": "Paiements",
+};
