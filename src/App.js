@@ -21,6 +21,8 @@ const App = () => {
       case "fr_FR":
         moment.locale("fr");
         break;
+      default:
+        break;
     }
   }, [locale]);
 
@@ -30,6 +32,8 @@ const App = () => {
         return enUS;
       case "fr_FR":
         return frFr;
+      default:
+        break;
     }
   };
 

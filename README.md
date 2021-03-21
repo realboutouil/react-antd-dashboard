@@ -41,14 +41,24 @@ $ yarn
 $ yarn start
 ```
 
+## 🐳 Docker
+
+```bash
+$ docker build -t antd-dashboard:0.1 . # build a new container image.
+$ docker run --rm -p 8080:8080 antd-dashboard:0.1 # run a container from the image.
+```
+
+#### And go to [React Antd Dashboard](http://localhost:8080)
+
 ## 🔨 Build
 
 ```bash
-yarn
-yarn run build
+$ yarn
+$ yarn run build
 ```
 
-This project default deploy on the root site, if you want to deploy on a child site, you need to set the public path. In the `.env` file at the root of this project, add `PUBLIC_URL=YOUR_CHILD_PATH`.
+This project default deploy on the root site, if you want to deploy on a child site, you need to set the public path. In
+the `.env` file at the root of this project, add `PUBLIC_URL=YOUR_CHILD_PATH`.
 
 ## 🖥 Browsers support
 
@@ -61,5 +71,6 @@ At present, we officially aim to support the last two versions of the following 
 We very much welcome your contribution, you can build together with us in the following ways 😃
 
 - Use Ant Design Pro in your daily work.
-- Submit [GitHub issues](https://github.com/mohammedamineboutouil/react-antd-dashboard/issues) to report bugs or ask questions.
+- Submit [GitHub issues](https://github.com/mohammedamineboutouil/react-antd-dashboard/issues) to report bugs or ask
+  questions.
 - Propose [Pull Request](https://github.com/mohammedamineboutouil/react-antd-dashboard/pulls) to improve our code.
